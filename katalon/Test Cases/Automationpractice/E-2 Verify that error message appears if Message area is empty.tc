@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-2 Verify that error message appears if Message area is empty
+1. Перейдите на страницу Contact Us.
+2. Заполните все необходимые поля, кроме поля Message.
+3. Нажмите кнопку Send.
+4. Убедитесь, что сообщение «The message cannot be blank.» об ошибке отображается.
+</description>
+   <name>E-2 Verify that error message appears if Message area is empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e67f05e-74d3-4b19-bb72-459344f5669e</testCaseGuid>
+</TestCaseEntity>

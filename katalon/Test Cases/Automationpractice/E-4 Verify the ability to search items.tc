@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-4 Verify the ability to search items
+1.	Выполните поиск товара Blouse.
+2.	Убедитесь, что этот товар отображается в результатах поиска.
+</description>
+   <name>E-4 Verify the ability to search items</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87bea23f-c5d0-4b8a-8f74-18b0d9d3d34f</testCaseGuid>
+</TestCaseEntity>

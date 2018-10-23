@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="58" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="3" failures="0" errors="0" time="58" timestamp="2018-10-21 21:54:11" hostname="StaBdv - 192.168.8.108" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/StaBdv/Documents/QA/Automation/Final_task/Reports/Test Suite 1/20181021_215409"/>
+         <property name="logFiles" value="/Users/StaBdv/Documents/QA/Automation/Final_task/Reports/Test Suite 1/20181021_215409/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="StaBdv - 192.168.8.108"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.8.108"/>
+         <property name="sessionId" value="699d94c1-9cea-8f42-a378-313257911f02"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully" classname="Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully" status="PASSED">
+         <system-out><![CDATA[2018-10-21 21:54:11 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully: Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully
+
+2018-10-21 21:54:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-21 21:54:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-21 21:54:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Contact us' is clicked on
+
+2018-10-21 21:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Contact us' is clicked on
+
+2018-10-21 21:54:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Contact us - My Store/select_-- Choose --'  using regular expression
+
+2018-10-21 21:54:26 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Contact us - My Store/select_-- Choose --'  using regular expression
+
+2018-10-21 21:54:26 - [TEST_STEP][PASSED] - setText: Text 'test@mail.com' is set on object 'Object Repository/Page_Contact us - My Store/input_Email address_from'
+
+2018-10-21 21:54:26 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_Contact us - My Store/input_Email address_from'
+
+2018-10-21 21:54:26 - [TEST_STEP][PASSED] - setText: Text '1122AABB' is set on object 'Object Repository/Page_Contact us - My Store/input_Order reference_id_order'
+
+2018-10-21 21:54:26 - [MESSAGE][PASSED] - Text '1122AABB' is set on object 'Object Repository/Page_Contact us - My Store/input_Order reference_id_order'
+
+2018-10-21 21:54:26 - [TEST_STEP][PASSED] - setText: Text 'Test message' is set on object 'Object Repository/Page_Contact us - My Store/textarea_Message_message'
+
+2018-10-21 21:54:26 - [MESSAGE][PASSED] - Text 'Test message' is set on object 'Object Repository/Page_Contact us - My Store/textarea_Message_message'
+
+2018-10-21 21:54:26 - [TEST_STEP][PASSED] - uploadFile: File '/Users/StaBdv/Documents/QA/Automation/Final_task/test.txt' sent to object: 'Object Repository/Page_Contact us - My Store/input_Attach File_fileUpload'
+
+2018-10-21 21:54:26 - [MESSAGE][PASSED] - File '/Users/StaBdv/Documents/QA/Automation/Final_task/test.txt' sent to object: 'Object Repository/Page_Contact us - My Store/input_Attach File_fileUpload'
+
+2018-10-21 21:54:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Contact us - My Store/span_Send' is clicked on
+
+2018-10-21 21:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact us - My Store/span_Send' is clicked on
+
+2018-10-21 21:54:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Your message has been successfully sent to our team.' is present on page 
+
+2018-10-21 21:54:28 - [MESSAGE][PASSED] - Text 'Your message has been successfully sent to our team.' is present on page 
+
+2018-10-21 21:54:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-21 21:54:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty" classname="Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty" status="PASSED">
+         <system-out><![CDATA[2018-10-21 21:54:28 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty: Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty
+
+2018-10-21 21:54:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-21 21:54:41 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-21 21:54:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Contact us' is clicked on
+
+2018-10-21 21:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Contact us' is clicked on
+
+2018-10-21 21:54:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Contact us - My Store/select_-- Choose --'  using regular expression
+
+2018-10-21 21:54:44 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Contact us - My Store/select_-- Choose --'  using regular expression
+
+2018-10-21 21:54:44 - [TEST_STEP][PASSED] - setText: Text 'test@mail.com' is set on object 'Object Repository/Page_Contact us - My Store/input_Email address_from'
+
+2018-10-21 21:54:44 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_Contact us - My Store/input_Email address_from'
+
+2018-10-21 21:54:44 - [TEST_STEP][PASSED] - setText: Text '1122AABB' is set on object 'Object Repository/Page_Contact us - My Store/input_Order reference_id_order'
+
+2018-10-21 21:54:44 - [MESSAGE][PASSED] - Text '1122AABB' is set on object 'Object Repository/Page_Contact us - My Store/input_Order reference_id_order'
+
+2018-10-21 21:54:44 - [TEST_STEP][PASSED] - uploadFile: File '/Users/StaBdv/Documents/QA/Automation/Final_task/test.txt' sent to object: 'Object Repository/Page_Contact us - My Store/input_Attach File_fileUpload'
+
+2018-10-21 21:54:44 - [MESSAGE][PASSED] - File '/Users/StaBdv/Documents/QA/Automation/Final_task/test.txt' sent to object: 'Object Repository/Page_Contact us - My Store/input_Attach File_fileUpload'
+
+2018-10-21 21:54:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Contact us - My Store/span_Send' is clicked on
+
+2018-10-21 21:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact us - My Store/span_Send' is clicked on
+
+2018-10-21 21:54:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'The message cannot be blank.' is present on page 
+
+2018-10-21 21:54:46 - [MESSAGE][PASSED] - Text 'The message cannot be blank.' is present on page 
+
+2018-10-21 21:54:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-21 21:54:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-3 Verify the ability to register" classname="Test Cases/Automationpractice/E-3 Verify the ability to register" status="PASSED">
+         <system-out><![CDATA[2018-10-21 21:54:46 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-3 Verify the ability to register: Test Cases/Automationpractice/E-3 Verify the ability to register
+
+2018-10-21 21:54:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-21 21:54:59 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-21 21:54:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-21 21:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-21 21:55:02 - [TEST_STEP][PASSED] - Statement - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-10-21 21:55:02 - [TEST_STEP][PASSED] - Statement - RN = java.lang.Math.random() * 500: null
+
+2018-10-21 21:55:02 - [TEST_STEP][PASSED] - setText: Text 'test154@mail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_crea'
+
+2018-10-21 21:55:02 - [MESSAGE][PASSED] - Text 'test154@mail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_crea'
+
+2018-10-21 21:55:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-21 21:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-21 21:55:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-21 21:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-21 21:55:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2018-10-21 21:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2018-10-21 21:55:03 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2018-10-21 21:55:03 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2018-10-21 21:55:03 - [TEST_STEP][PASSED] - setText: Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2018-10-21 21:55:04 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2018-10-21 21:55:04 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2018-10-21 21:55:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2018-10-21 21:55:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2018-10-21 21:55:04 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2018-10-21 21:55:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2018-10-21 21:55:05 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2018-10-21 21:55:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1980' are selected in object 'Object Repository/Page_Login - My Store/select_-2018201720162015201420'  using regular expression
+
+2018-10-21 21:55:06 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/Page_Login - My Store/select_-2018201720162015201420'  using regular expression
+
+2018-10-21 21:55:06 - [TEST_STEP][PASSED] - setText: Text 'TestTest' is set on object 'Object Repository/Page_Login - My Store/input__firstname'
+
+2018-10-21 21:55:06 - [MESSAGE][PASSED] - Text 'TestTest' is set on object 'Object Repository/Page_Login - My Store/input__firstname'
+
+2018-10-21 21:55:06 - [TEST_STEP][PASSED] - setText: Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__lastname'
+
+2018-10-21 21:55:06 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__lastname'
+
+2018-10-21 21:55:06 - [TEST_STEP][PASSED] - setText: Text '3004 Baker Avenue' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2018-10-21 21:55:06 - [MESSAGE][PASSED] - Text '3004 Baker Avenue' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2018-10-21 21:55:06 - [TEST_STEP][PASSED] - setText: Text 'Westland' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2018-10-21 21:55:06 - [MESSAGE][PASSED] - Text 'Westland' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2018-10-21 21:55:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '38' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-21 21:55:07 - [MESSAGE][PASSED] - All options with value '38' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-21 21:55:07 - [TEST_STEP][PASSED] - setText: Text '15378' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2018-10-21 21:55:07 - [MESSAGE][PASSED] - Text '15378' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2018-10-21 21:55:07 - [TEST_STEP][PASSED] - setText: Text '817-803-6082' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2018-10-21 21:55:07 - [MESSAGE][PASSED] - Text '817-803-6082' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2018-10-21 21:55:07 - [TEST_STEP][PASSED] - setText: Text 'My address3004  Baker Avenue' is set on object 'Object Repository/Page_Login - My Store/input__alias'
+
+2018-10-21 21:55:07 - [MESSAGE][PASSED] - Text 'My address3004  Baker Avenue' is set on object 'Object Repository/Page_Login - My Store/input__alias'
+
+2018-10-21 21:55:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2018-10-21 21:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2018-10-21 21:55:09 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to your account. Here you can manage all of your personal information and orders.' is present on page 
+
+2018-10-21 21:55:09 - [MESSAGE][PASSED] - Text 'Welcome to your account. Here you can manage all of your personal information and orders.' is present on page 
+
+2018-10-21 21:55:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-21 21:55:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-21 21:54:11 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/Automationpractice/E-3 Verify the ability to register]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

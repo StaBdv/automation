@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-1 Verify that contact us form sends successfully
+1.	Перейдите на страницу Contact Us.
+2.	Заполните все необходимые поля (прикрепите txt файл).
+3.	Нажмите кнопку Send.
+4.	Убедитесь, что сообщение об успешной отправке отображается.
+</description>
+   <name>E-1 Verify that contact us form sends successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecb0e44a-6fe6-4733-ba28-98e167e06051</testCaseGuid>
+</TestCaseEntity>

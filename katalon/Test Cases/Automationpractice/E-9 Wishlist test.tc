@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-9 Wishlist test
+
+TC:
+	1. Sign in to the portal as an existing customer (e-8test@testmail.com / Password123)
+	2. Open section &quot;Dresses&quot; > &quot;Evening Dresses&quot;
+	3. Add appeared result to the &quot;Wishlist&quot;
+	4. Proceed to &quot;MY ACCOUNT&quot; page > &quot;MY WISHLISTS&quot;
+	
+ER:
+	4. Check My Wishlist created
+Check the Wishlist has product</description>
+   <name>E-9 Wishlist test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72aba83d-5cad-4aa6-a695-57601937c574</testCaseGuid>
+</TestCaseEntity>

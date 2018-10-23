@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-8 Verify CA modification
+TC:
+	1. Sign in to the portal as an existing customer (e-8test@testmail.com / Password123)
+	2. Proceed to &quot;MY ACCOUNT&quot; page > &quot;MY ADDRESSES&quot;
+	3. Delete the old address
+	4. Add new address
+	5. Sign out
+	
+ER:
+	3. Check no address exist &quot;No addresses are available.&quot;
+	4. Check address is presented
+Check sign out is performed</description>
+   <name>E-8 Verify CA modification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3183a679-5da0-4f14-a59a-170c40e254d6</testCaseGuid>
+</TestCaseEntity>

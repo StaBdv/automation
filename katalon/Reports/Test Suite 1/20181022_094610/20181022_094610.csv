@@ -1,0 +1,151 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite 1,Firefox 62.0,,2018-10-22 09:46:12,2018-10-22 09:48:13,2m - 1.157s,FAILED
+,,,,,,
+Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully,Firefox 62.0,"E-1 Verify that contact us form sends successfully
+1.	Перейдите на страницу Contact Us.
+2.	Заполните все необходимые поля (прикрепите txt файл).
+3.	Нажмите кнопку Send.
+4.	Убедитесь, что сообщение об успешной отправке отображается.
+",2018-10-22 09:46:12,2018-10-22 09:46:25,12.990s,PASSED
+openBrowser,Firefox 62.0,,2018-10-22 09:46:12,2018-10-22 09:46:20,7.954s,PASSED
+click,Firefox 62.0,,2018-10-22 09:46:20,2018-10-22 09:46:22,1.575s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:46:22,2018-10-22 09:46:22,0.376s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:22,2018-10-22 09:46:22,0.078s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:22,2018-10-22 09:46:22,0.046s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:22,2018-10-22 09:46:22,0.050s,PASSED
+uploadFile,Firefox 62.0,Attach the file,2018-10-22 09:46:22,2018-10-22 09:46:22,0.040s,PASSED
+click,Firefox 62.0,Submit,2018-10-22 09:46:22,2018-10-22 09:46:24,2.249s,PASSED
+verifyTextPresent,Firefox 62.0,Verify successfull message presented,2018-10-22 09:46:24,2018-10-22 09:46:25,0.237s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-22 09:46:25,2018-10-22 09:46:25,0.178s,PASSED
+,,,,,,
+Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty,Firefox 62.0,"E-2 Verify that error message appears if Message area is empty
+1. Перейдите на страницу Contact Us.
+2. Заполните все необходимые поля, кроме поля Message.
+3. Нажмите кнопку Send.
+4. Убедитесь, что сообщение «The message cannot be blank.» об ошибке отображается.
+",2018-10-22 09:46:25,2018-10-22 09:46:37,12.050s,PASSED
+openBrowser,Firefox 62.0,,2018-10-22 09:46:25,2018-10-22 09:46:33,8.327s,PASSED
+click,Firefox 62.0,,2018-10-22 09:46:33,2018-10-22 09:46:35,1.416s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:46:35,2018-10-22 09:46:35,0.393s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:35,2018-10-22 09:46:35,0.050s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:35,2018-10-22 09:46:35,0.044s,PASSED
+uploadFile,Firefox 62.0,Attach the file,2018-10-22 09:46:35,2018-10-22 09:46:35,0.023s,PASSED
+click,Firefox 62.0,Submit,2018-10-22 09:46:35,2018-10-22 09:46:36,1.152s,PASSED
+verifyTextPresent,Firefox 62.0,Verify negative message presented,2018-10-22 09:46:36,2018-10-22 09:46:37,0.333s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-22 09:46:37,2018-10-22 09:46:37,0.182s,PASSED
+,,,,,,
+Test Cases/Automationpractice/E-3 Verify the ability to register,Firefox 62.0,"E-3 Verify the ability to register
+1.	Выполните регистрацию на сайте, успользуя рандомные данные.
+2.	Убедитесь, что страница My Account отображается.
+",2018-10-22 09:46:37,2018-10-22 09:46:55,17.914s,PASSED
+openBrowser,Firefox 62.0,,2018-10-22 09:46:37,2018-10-22 09:46:44,7.377s,PASSED
+click,Firefox 62.0,,2018-10-22 09:46:44,2018-10-22 09:46:46,1.976s,PASSED
+Statement - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 62.0,,2018-10-22 09:46:46,2018-10-22 09:46:46,0.000s,PASSED
+Statement - RN = java.lang.Math.random() * 10000,Firefox 62.0,,2018-10-22 09:46:46,2018-10-22 09:46:46,0.007s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:46,2018-10-22 09:46:47,0.135s,PASSED
+click,Firefox 62.0,,2018-10-22 09:46:47,2018-10-22 09:46:47,0.268s,PASSED
+click,Firefox 62.0,,2018-10-22 09:46:47,2018-10-22 09:46:47,0.241s,PASSED
+click,Firefox 62.0,,2018-10-22 09:46:47,2018-10-22 09:46:49,1.484s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:49,2018-10-22 09:46:49,0.116s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:49,2018-10-22 09:46:49,0.038s,PASSED
+setEncryptedText,Firefox 62.0,,2018-10-22 09:46:49,2018-10-22 09:46:49,0.102s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:46:49,2018-10-22 09:46:49,0.642s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:46:49,2018-10-22 09:46:50,0.399s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:46:50,2018-10-22 09:46:51,1.530s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:51,2018-10-22 09:46:51,0.038s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:51,2018-10-22 09:46:51,0.039s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:51,2018-10-22 09:46:52,0.059s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:52,2018-10-22 09:46:52,0.030s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:46:52,2018-10-22 09:46:52,0.871s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:52,2018-10-22 09:46:52,0.031s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:52,2018-10-22 09:46:53,0.040s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:46:53,2018-10-22 09:46:53,0.052s,PASSED
+click,Firefox 62.0,,2018-10-22 09:46:53,2018-10-22 09:46:54,1.850s,PASSED
+verifyTextPresent,Firefox 62.0,Verify successfull message presented,2018-10-22 09:46:54,2018-10-22 09:46:55,0.276s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-22 09:46:55,2018-10-22 09:46:55,0.194s,PASSED
+,,,,,,
+Test Cases/Automationpractice/E-4 Verify the ability to search items,Firefox 62.0,"E-4 Verify the ability to search items
+1.	Выполните поиск товара Blouse.
+2.	Убедитесь, что этот товар отображается в результатах поиска.
+",2018-10-22 09:46:55,2018-10-22 09:47:05,9.977s,PASSED
+openBrowser,Firefox 62.0,,2018-10-22 09:46:55,2018-10-22 09:47:03,7.708s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:03,2018-10-22 09:47:03,0.040s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:03,2018-10-22 09:47:04,1.404s,PASSED
+verifyTextNotPresent,Firefox 62.0,,2018-10-22 09:47:04,2018-10-22 09:47:05,0.561s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-22 09:47:05,2018-10-22 09:47:05,0.190s,PASSED
+,,,,,,
+Test Cases/Automationpractice/E-5 Verify the ability to add and delete items from cart,Firefox 62.0,"E-5 Verify the ability to add and delete items from cart
+1.	Выполните поиск какого-нибудь товара, добавьте его в корзину и убедитесь, что он отображается там.
+2.	После этого удалите товар из корзины и убедитесь, что она пустая.
+",2018-10-22 09:47:05,2018-10-22 09:47:21,16.125s,FAILED
+openBrowser,Firefox 62.0,,2018-10-22 09:47:05,2018-10-22 09:47:12,7.191s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:12,2018-10-22 09:47:12,0.044s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:12,2018-10-22 09:47:14,1.558s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:14,2018-10-22 09:47:17,3.219s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:17,2018-10-22 09:47:17,0.257s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:47:17,2018-10-22 09:47:18,0.555s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:18,2018-10-22 09:47:18,0.262s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:18,2018-10-22 09:47:20,1.843s,PASSED
+verifyTextNotPresent,Firefox 62.0,,2018-10-22 09:47:20,2018-10-22 09:47:20,0.340s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:20,2018-10-22 09:47:20,0.239s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-22 09:47:20,2018-10-22 09:47:21,0.025s,PASSED
+verifyTextPresent,Firefox 62.0,Verify successfull message presented,2018-10-22 09:47:21,2018-10-22 09:47:21,0.499s,FAILED
+,,,,,,
+Test Cases/Automationpractice/E-6 Catalog Test,Firefox 62.0,"E-6 Catalog Test.
+1.	Перейдите на страницу  Women -> T-Shirts.
+2.	Убедитесь, что отображается товар T-Shirt.
+",2018-10-22 09:47:21,2018-10-22 09:47:38,17.021s,PASSED
+openBrowser,Firefox 62.0,,2018-10-22 09:47:21,2018-10-22 09:47:31,10.298s,PASSED
+mouseOver,Firefox 62.0,,2018-10-22 09:47:31,2018-10-22 09:47:32,0.144s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:47:32,2018-10-22 09:47:35,3.303s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:35,2018-10-22 09:47:38,3.008s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-22 09:47:38,2018-10-22 09:47:38,0.020s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-22 09:47:38,2018-10-22 09:47:38,0.176s,PASSED
+,,,,,,
+Test Cases/Automationpractice/E-7 Proceed To Checkout,Firefox 62.0,"E-5 Verify the ability to add and delete items from cart
+1.	Выполните поиск какого-нибудь товара, добавьте его в корзину и убедитесь, что он отображается там.
+2.	После этого удалите товар из корзины и убедитесь, что она пустая.
+",2018-10-22 09:47:38,2018-10-22 09:48:13,34.777s,PASSED
+openBrowser,Firefox 62.0,,2018-10-22 09:47:38,2018-10-22 09:47:48,9.584s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:48,2018-10-22 09:47:48,0.051s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:48,2018-10-22 09:47:50,1.719s,PASSED
+mouseOver,Firefox 62.0,,2018-10-22 09:47:50,2018-10-22 09:47:50,0.143s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:47:50,2018-10-22 09:47:50,0.027s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:50,2018-10-22 09:47:50,0.234s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:47:50,2018-10-22 09:47:50,0.536s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:50,2018-10-22 09:47:52,1.703s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:47:52,2018-10-22 09:47:52,0.024s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:52,2018-10-22 09:47:54,2.260s,PASSED
+Statement - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 62.0,,2018-10-22 09:47:54,2018-10-22 09:47:54,0.001s,PASSED
+Statement - RN = java.lang.Math.random() * 10000,Firefox 62.0,,2018-10-22 09:47:54,2018-10-22 09:47:54,0.001s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:54,2018-10-22 09:47:54,0.058s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:54,2018-10-22 09:47:55,0.249s,PASSED
+click,Firefox 62.0,,2018-10-22 09:47:55,2018-10-22 09:47:57,1.752s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:57,2018-10-22 09:47:57,0.028s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:57,2018-10-22 09:47:57,0.096s,PASSED
+setEncryptedText,Firefox 62.0,,2018-10-22 09:47:57,2018-10-22 09:47:57,0.046s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:47:57,2018-10-22 09:47:57,0.465s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:47:57,2018-10-22 09:47:57,0.341s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:47:57,2018-10-22 09:47:59,1.212s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:59,2018-10-22 09:47:59,0.030s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:59,2018-10-22 09:47:59,0.030s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:59,2018-10-22 09:47:59,0.047s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:47:59,2018-10-22 09:47:59,0.039s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-22 09:47:59,2018-10-22 09:48:00,0.892s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:48:00,2018-10-22 09:48:00,0.027s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:48:00,2018-10-22 09:48:00,0.030s,PASSED
+setText,Firefox 62.0,,2018-10-22 09:48:00,2018-10-22 09:48:00,0.046s,PASSED
+click,Firefox 62.0,,2018-10-22 09:48:00,2018-10-22 09:48:02,2.097s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:48:02,2018-10-22 09:48:02,0.038s,PASSED
+click,Firefox 62.0,,2018-10-22 09:48:02,2018-10-22 09:48:03,1.366s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:48:03,2018-10-22 09:48:05,2.115s,PASSED
+click,Firefox 62.0,,2018-10-22 09:48:05,2018-10-22 09:48:06,0.237s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:48:06,2018-10-22 09:48:06,0.023s,PASSED
+click,Firefox 62.0,,2018-10-22 09:48:06,2018-10-22 09:48:07,1.199s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:48:07,2018-10-22 09:48:07,0.035s,PASSED
+click,Firefox 62.0,,2018-10-22 09:48:07,2018-10-22 09:48:08,0.852s,PASSED
+click,Firefox 62.0,,2018-10-22 09:48:08,2018-10-22 09:48:10,1.946s,PASSED
+click,Firefox 62.0,,2018-10-22 09:48:10,2018-10-22 09:48:11,1.219s,PASSED
+click,Firefox 62.0,,2018-10-22 09:48:11,2018-10-22 09:48:13,1.644s,PASSED
+waitForElementVisible,Firefox 62.0,,2018-10-22 09:48:13,2018-10-22 09:48:13,0.027s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-22 09:48:13,2018-10-22 09:48:13,0.178s,PASSED

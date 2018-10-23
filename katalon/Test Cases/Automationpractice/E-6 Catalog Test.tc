@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-6 Catalog Test.
+1.	Перейдите на страницу  Women -> T-Shirts.
+2.	Убедитесь, что отображается товар T-Shirt.
+</description>
+   <name>E-6 Catalog Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59f5707c-f725-46e5-8723-85a015aa2ebb</testCaseGuid>
+</TestCaseEntity>

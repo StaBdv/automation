@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-5 Verify the ability to add and delete items from cart
+1.	Выполните поиск какого-нибудь товара, добавьте его в корзину и убедитесь, что он отображается там.
+2.	После этого удалите товар из корзины и убедитесь, что она пустая.
+</description>
+   <name>E-5 Verify the ability to add and delete items from cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0004ec4f-40c2-4e02-8458-044745526ded</testCaseGuid>
+</TestCaseEntity>

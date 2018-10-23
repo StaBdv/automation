@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-11 registration form validation
+	1. Create a new customer account
+	2. Fill in all the mandatory parameters
+	3. Set Zip/Postal Code value different from the format 00000
+Validate the error message appeared &quot;The Zip/Postal code you've entered is invalid. It must follow this format: 00000&quot;</description>
+   <name>E-11 Registration form validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>baa94d7c-5202-4ec1-be28-5be1e88f6ecb</testCaseGuid>
+</TestCaseEntity>

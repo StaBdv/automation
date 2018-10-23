@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>E-3 Verify the ability to register
+1.	Выполните регистрацию на сайте, успользуя рандомные данные.
+2.	Убедитесь, что страница My Account отображается.
+</description>
+   <name>E-3 Verify the ability to register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>485fc08d-7592-496b-88c1-821b13935bc8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="211" tests="10" failures="1" errors="0">
+   <testsuite name="Test Suite 1" tests="10" failures="1" errors="0" time="211" timestamp="2018-10-23 18:09:02" hostname="StaBdv - 192.168.8.108" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/StaBdv/Documents/QA/Automation/Final_task/Reports/Test Suite 1/20181023_180901"/>
+         <property name="logFiles" value="/Users/StaBdv/Documents/QA/Automation/Final_task/Reports/Test Suite 1/20181023_180901/execution0.log"/>
+         <property name="attachments" value="/Users/StaBdv/Documents/QA/Automation/Final_task/Reports/Test Suite 1/20181023_180901/1540303924304.png"/>
+         <property name="hostName" value="StaBdv - 192.168.8.108"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.67"/>
+         <property name="hostAddress" value="192.168.8.108"/>
+         <property name="sessionId" value="5128ef76517f5458887823862aad1afc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully" classname="Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:09:02 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully: Test Cases/Automationpractice/E-1 Verify that contact us form sends successfully
+
+2018-10-23 18:09:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:09:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:09:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Contact us' is clicked on
+
+2018-10-23 18:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Contact us' is clicked on
+
+2018-10-23 18:09:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Contact us - My Store/select_-- Choose --'  using regular expression
+
+2018-10-23 18:09:14 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Contact us - My Store/select_-- Choose --'  using regular expression
+
+2018-10-23 18:09:14 - [TEST_STEP][PASSED] - setText: Text 'test@mail.com' is set on object 'Object Repository/Page_Contact us - My Store/input_Email address_from'
+
+2018-10-23 18:09:14 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_Contact us - My Store/input_Email address_from'
+
+2018-10-23 18:09:14 - [TEST_STEP][PASSED] - setText: Text '1122AABB' is set on object 'Object Repository/Page_Contact us - My Store/input_Order reference_id_order'
+
+2018-10-23 18:09:15 - [MESSAGE][PASSED] - Text '1122AABB' is set on object 'Object Repository/Page_Contact us - My Store/input_Order reference_id_order'
+
+2018-10-23 18:09:15 - [TEST_STEP][PASSED] - setText: Text 'Test message' is set on object 'Object Repository/Page_Contact us - My Store/textarea_Message_message'
+
+2018-10-23 18:09:15 - [MESSAGE][PASSED] - Text 'Test message' is set on object 'Object Repository/Page_Contact us - My Store/textarea_Message_message'
+
+2018-10-23 18:09:15 - [TEST_STEP][PASSED] - uploadFile: File '/Users/StaBdv/Documents/QA/Automation/Final_task/test.txt' sent to object: 'Object Repository/Page_Contact us - My Store/input_Attach File_fileUpload'
+
+2018-10-23 18:09:15 - [MESSAGE][PASSED] - File '/Users/StaBdv/Documents/QA/Automation/Final_task/test.txt' sent to object: 'Object Repository/Page_Contact us - My Store/input_Attach File_fileUpload'
+
+2018-10-23 18:09:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Contact us - My Store/span_Send' is clicked on
+
+2018-10-23 18:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact us - My Store/span_Send' is clicked on
+
+2018-10-23 18:09:16 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Your message has been successfully sent to our team.' is present on page 
+
+2018-10-23 18:09:16 - [MESSAGE][PASSED] - Text 'Your message has been successfully sent to our team.' is present on page 
+
+2018-10-23 18:09:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:09:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty" classname="Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:09:16 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty: Test Cases/Automationpractice/E-2 Verify that error message appears if Message area is empty
+
+2018-10-23 18:09:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:09:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:09:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Contact us' is clicked on
+
+2018-10-23 18:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Contact us' is clicked on
+
+2018-10-23 18:09:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Contact us - My Store/select_-- Choose --'  using regular expression
+
+2018-10-23 18:09:24 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Contact us - My Store/select_-- Choose --'  using regular expression
+
+2018-10-23 18:09:24 - [TEST_STEP][PASSED] - setText: Text 'test@mail.com' is set on object 'Object Repository/Page_Contact us - My Store/input_Email address_from'
+
+2018-10-23 18:09:24 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Page_Contact us - My Store/input_Email address_from'
+
+2018-10-23 18:09:24 - [TEST_STEP][PASSED] - setText: Text '1122AABB' is set on object 'Object Repository/Page_Contact us - My Store/input_Order reference_id_order'
+
+2018-10-23 18:09:24 - [MESSAGE][PASSED] - Text '1122AABB' is set on object 'Object Repository/Page_Contact us - My Store/input_Order reference_id_order'
+
+2018-10-23 18:09:24 - [TEST_STEP][PASSED] - uploadFile: File '/Users/StaBdv/Documents/QA/Automation/Final_task/test.txt' sent to object: 'Object Repository/Page_Contact us - My Store/input_Attach File_fileUpload'
+
+2018-10-23 18:09:24 - [MESSAGE][PASSED] - File '/Users/StaBdv/Documents/QA/Automation/Final_task/test.txt' sent to object: 'Object Repository/Page_Contact us - My Store/input_Attach File_fileUpload'
+
+2018-10-23 18:09:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Contact us - My Store/span_Send' is clicked on
+
+2018-10-23 18:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact us - My Store/span_Send' is clicked on
+
+2018-10-23 18:09:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'The message cannot be blank.' is present on page 
+
+2018-10-23 18:09:26 - [MESSAGE][PASSED] - Text 'The message cannot be blank.' is present on page 
+
+2018-10-23 18:09:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:09:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-3 Verify the ability to register" classname="Test Cases/Automationpractice/E-3 Verify the ability to register" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:09:26 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-3 Verify the ability to register: Test Cases/Automationpractice/E-3 Verify the ability to register
+
+2018-10-23 18:09:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:09:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:09:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-23 18:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-23 18:09:35 - [TEST_STEP][PASSED] - Statement - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-10-23 18:09:35 - [TEST_STEP][PASSED] - Statement - RN = java.lang.Math.random() * 10000: null
+
+2018-10-23 18:09:35 - [TEST_STEP][PASSED] - setText: Text 'testreg6422@mail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_crea'
+
+2018-10-23 18:09:35 - [MESSAGE][PASSED] - Text 'testreg6422@mail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_crea'
+
+2018-10-23 18:09:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:09:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:09:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2018-10-23 18:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2018-10-23 18:09:37 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2018-10-23 18:09:37 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2018-10-23 18:09:37 - [TEST_STEP][PASSED] - setText: Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2018-10-23 18:09:38 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2018-10-23 18:09:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2018-10-23 18:09:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2018-10-23 18:09:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2018-10-23 18:09:38 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2018-10-23 18:09:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2018-10-23 18:09:38 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2018-10-23 18:09:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1980' are selected in object 'Object Repository/Page_Login - My Store/select_-2018201720162015201420'  using regular expression
+
+2018-10-23 18:09:39 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/Page_Login - My Store/select_-2018201720162015201420'  using regular expression
+
+2018-10-23 18:09:39 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__firstname'
+
+2018-10-23 18:09:39 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__firstname'
+
+2018-10-23 18:09:39 - [TEST_STEP][PASSED] - setText: Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__lastname'
+
+2018-10-23 18:09:39 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__lastname'
+
+2018-10-23 18:09:39 - [TEST_STEP][PASSED] - setText: Text '3004 Baker Avenue' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2018-10-23 18:09:40 - [MESSAGE][PASSED] - Text '3004 Baker Avenue' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2018-10-23 18:09:40 - [TEST_STEP][PASSED] - setText: Text 'Westland' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2018-10-23 18:09:40 - [MESSAGE][PASSED] - Text 'Westland' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2018-10-23 18:09:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '38' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-23 18:09:40 - [MESSAGE][PASSED] - All options with value '38' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-23 18:09:40 - [TEST_STEP][PASSED] - setText: Text '15378' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2018-10-23 18:09:40 - [MESSAGE][PASSED] - Text '15378' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2018-10-23 18:09:40 - [TEST_STEP][PASSED] - setText: Text '817-803-6082' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2018-10-23 18:09:41 - [MESSAGE][PASSED] - Text '817-803-6082' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2018-10-23 18:09:41 - [TEST_STEP][PASSED] - setText: Text 'My address3004  Baker Avenue' is set on object 'Object Repository/Page_Login - My Store/input__alias'
+
+2018-10-23 18:09:41 - [MESSAGE][PASSED] - Text 'My address3004  Baker Avenue' is set on object 'Object Repository/Page_Login - My Store/input__alias'
+
+2018-10-23 18:09:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2018-10-23 18:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2018-10-23 18:09:43 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome to your account. Here you can manage all of your personal information and orders.' is present on page 
+
+2018-10-23 18:09:43 - [MESSAGE][PASSED] - Text 'Welcome to your account. Here you can manage all of your personal information and orders.' is present on page 
+
+2018-10-23 18:09:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:09:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-4 Verify the ability to search items" classname="Test Cases/Automationpractice/E-4 Verify the ability to search items" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:09:43 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-4 Verify the ability to search items: Test Cases/Automationpractice/E-4 Verify the ability to search items
+
+2018-10-23 18:09:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:09:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:09:51 - [TEST_STEP][PASSED] - setText: Text 'Blouse' is set on object 'Object Repository/Page_My Store/input_Call us now_search_query'
+
+2018-10-23 18:09:51 - [MESSAGE][PASSED] - Text 'Blouse' is set on object 'Object Repository/Page_My Store/input_Call us now_search_query'
+
+2018-10-23 18:09:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/button_Search' is clicked on
+
+2018-10-23 18:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/button_Search' is clicked on
+
+2018-10-23 18:09:51 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text '0 results has been found.' is not present on page
+
+2018-10-23 18:09:53 - [MESSAGE][PASSED] - Text '0 results has been found.' is not present on page
+
+2018-10-23 18:09:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:09:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-5 Verify the ability to add and delete items from cart" classname="Test Cases/Automationpractice/E-5 Verify the ability to add and delete items from cart" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:09:53 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-5 Verify the ability to add and delete items from cart: Test Cases/Automationpractice/E-5 Verify the ability to add and delete items from cart
+
+2018-10-23 18:09:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:10:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:10:05 - [TEST_STEP][PASSED] - setText: Text 'Dress' is set on object 'Object Repository/Page_My Store/input_Call us now_search_query (1) (1)'
+
+2018-10-23 18:10:05 - [MESSAGE][PASSED] - Text 'Dress' is set on object 'Object Repository/Page_My Store/input_Call us now_search_query (1) (1)'
+
+2018-10-23 18:10:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/button_Search (1) (1)' is clicked on
+
+2018-10-23 18:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/button_Search (1) (1)' is clicked on
+
+2018-10-23 18:10:05 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Search - My Store/img_Showing 1 - 7 of 7 items_r (1)' is hovered
+
+2018-10-23 18:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search - My Store/img_Showing 1 - 7 of 7 items_r (1)' is hovered
+
+2018-10-23 18:10:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Search - My Store/span_Add to cart' is visible
+
+2018-10-23 18:10:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Search - My Store/span_Add to cart' is visible
+
+2018-10-23 18:10:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search - My Store/span_Add to cart' is clicked on
+
+2018-10-23 18:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search - My Store/span_Add to cart' is clicked on
+
+2018-10-23 18:10:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Printed Summer Dress - My Stor/span_Continue shopping' is visible
+
+2018-10-23 18:10:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Printed Summer Dress - My Stor/span_Continue shopping' is visible
+
+2018-10-23 18:10:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Printed Summer Dress - My Stor/span_Continue shopping' is clicked on
+
+2018-10-23 18:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Printed Summer Dress - My Stor/span_Continue shopping' is clicked on
+
+2018-10-23 18:10:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-23 18:10:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-23 18:10:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-23 18:10:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-23 18:10:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_My Store/b_Cart' is visible
+
+2018-10-23 18:10:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Store/b_Cart' is visible
+
+2018-10-23 18:10:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/b_Cart' is clicked on
+
+2018-10-23 18:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/b_Cart' is clicked on
+
+2018-10-23 18:10:13 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'Your shopping cart is empty.' is not present on page
+
+2018-10-23 18:10:13 - [MESSAGE][PASSED] - Text 'Your shopping cart is empty.' is not present on page
+
+2018-10-23 18:10:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Order - My Store/i_28.98_icon-trash' is clicked on
+
+2018-10-23 18:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/i_28.98_icon-trash' is clicked on
+
+2018-10-23 18:10:13 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-10-23 18:10:14 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-10-23 18:10:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-23 18:10:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-23 18:10:14 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Your shopping cart is empty.' is present on page 
+
+2018-10-23 18:10:14 - [MESSAGE][PASSED] - Text 'Your shopping cart is empty.' is present on page 
+
+2018-10-23 18:10:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:10:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-6 Catalog Test" classname="Test Cases/Automationpractice/E-6 Catalog Test" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:10:14 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-6 Catalog Test: Test Cases/Automationpractice/E-6 Catalog Test
+
+2018-10-23 18:10:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:10:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:10:23 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_T-shirts - My Store/a_Women' is hovered
+
+2018-10-23 18:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_T-shirts - My Store/a_Women' is hovered
+
+2018-10-23 18:10:23 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_T-shirts - My Store/span_T-shirts' located by 'By.xpath: //div[@id='center_column']/h1/span' not found
+
+2018-10-23 18:10:27 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_T-shirts - My Store/span_T-shirts' located by 'By.xpath: //div[@id='center_column']/h1/span' not found
+
+2018-10-23 18:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_T-shirts' is clicked on
+
+2018-10-23 18:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_T-shirts' is clicked on
+
+2018-10-23 18:10:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_T-shirts - My Store/span_T-shirts_2' is present
+
+2018-10-23 18:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_T-shirts - My Store/span_T-shirts_2' is present
+
+2018-10-23 18:10:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:10:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-7 Proceed To Checkout" classname="Test Cases/Automationpractice/E-7 Proceed To Checkout" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:10:30 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-7 Proceed To Checkout: Test Cases/Automationpractice/E-7 Proceed To Checkout
+
+2018-10-23 18:10:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:10:37 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:10:37 - [TEST_STEP][PASSED] - setText: Text 'Dress' is set on object 'Object Repository/Page_My Store/input_Call us now_search_query (1) (1)'
+
+2018-10-23 18:10:37 - [MESSAGE][PASSED] - Text 'Dress' is set on object 'Object Repository/Page_My Store/input_Call us now_search_query (1) (1)'
+
+2018-10-23 18:10:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/button_Search (1) (1)' is clicked on
+
+2018-10-23 18:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/button_Search (1) (1)' is clicked on
+
+2018-10-23 18:10:39 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Search - My Store/img_Showing 1 - 7 of 7 items_r (1)' is hovered
+
+2018-10-23 18:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search - My Store/img_Showing 1 - 7 of 7 items_r (1)' is hovered
+
+2018-10-23 18:10:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Search - My Store/span_Add to cart' is visible
+
+2018-10-23 18:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Search - My Store/span_Add to cart' is visible
+
+2018-10-23 18:10:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search - My Store/span_Add to cart' is clicked on
+
+2018-10-23 18:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search - My Store/span_Add to cart' is clicked on
+
+2018-10-23 18:10:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Search - My Store/Proceed to checkout' is visible
+
+2018-10-23 18:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Search - My Store/Proceed to checkout' is visible
+
+2018-10-23 18:10:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search - My Store/Proceed to checkout' is clicked on
+
+2018-10-23 18:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search - My Store/Proceed to checkout' is clicked on
+
+2018-10-23 18:10:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Order - My Store/Proceed to checkout 2' is visible
+
+2018-10-23 18:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Order - My Store/Proceed to checkout 2' is visible
+
+2018-10-23 18:10:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Order - My Store/Proceed to checkout 2' is clicked on
+
+2018-10-23 18:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/Proceed to checkout 2' is clicked on
+
+2018-10-23 18:10:44 - [TEST_STEP][PASSED] - Statement - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-10-23 18:10:44 - [TEST_STEP][PASSED] - Statement - RN = java.lang.Math.random() * 10000: null
+
+2018-10-23 18:10:44 - [TEST_STEP][PASSED] - setText: Text 'test1210@mail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_crea'
+
+2018-10-23 18:10:44 - [MESSAGE][PASSED] - Text 'test1210@mail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_crea'
+
+2018-10-23 18:10:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:10:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2018-10-23 18:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2018-10-23 18:10:46 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2018-10-23 18:10:46 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2018-10-23 18:10:46 - [TEST_STEP][PASSED] - setText: Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2018-10-23 18:10:46 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2018-10-23 18:10:46 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2018-10-23 18:10:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2018-10-23 18:10:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2018-10-23 18:10:47 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2018-10-23 18:10:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2018-10-23 18:10:47 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2018-10-23 18:10:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1980' are selected in object 'Object Repository/Page_Login - My Store/select_-2018201720162015201420'  using regular expression
+
+2018-10-23 18:10:48 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/Page_Login - My Store/select_-2018201720162015201420'  using regular expression
+
+2018-10-23 18:10:48 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__firstname'
+
+2018-10-23 18:10:48 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_Login - My Store/input__firstname'
+
+2018-10-23 18:10:48 - [TEST_STEP][PASSED] - setText: Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__lastname'
+
+2018-10-23 18:10:48 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/Page_Login - My Store/input__lastname'
+
+2018-10-23 18:10:48 - [TEST_STEP][PASSED] - setText: Text '107  Columbia Mine Road' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2018-10-23 18:10:48 - [MESSAGE][PASSED] - Text '107  Columbia Mine Road' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2018-10-23 18:10:48 - [TEST_STEP][PASSED] - setText: Text 'Martinsburg' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2018-10-23 18:10:48 - [MESSAGE][PASSED] - Text 'Martinsburg' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2018-10-23 18:10:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '48' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-23 18:10:49 - [MESSAGE][PASSED] - All options with value '48' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-23 18:10:49 - [TEST_STEP][PASSED] - setText: Text '25401' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2018-10-23 18:10:49 - [MESSAGE][PASSED] - Text '25401' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2018-10-23 18:10:49 - [TEST_STEP][PASSED] - setText: Text '304-671-7539' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2018-10-23 18:10:49 - [MESSAGE][PASSED] - Text '304-671-7539' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2018-10-23 18:10:49 - [TEST_STEP][PASSED] - setText: Text '107  Columbia Mine Road' is set on object 'Object Repository/Page_Login - My Store/input__alias'
+
+2018-10-23 18:10:49 - [MESSAGE][PASSED] - Text '107  Columbia Mine Road' is set on object 'Object Repository/Page_Login - My Store/input__alias'
+
+2018-10-23 18:10:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2018-10-23 18:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2018-10-23 18:10:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Order - My Store/Proceed to checkout 3' is visible
+
+2018-10-23 18:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Order - My Store/Proceed to checkout 3' is visible
+
+2018-10-23 18:10:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Order - My Store/Proceed to checkout 3' is clicked on
+
+2018-10-23 18:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/Proceed to checkout 3' is clicked on
+
+2018-10-23 18:10:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Order - My Store/input_2.00_cgv' is not visible after 2 second(s)
+
+2018-10-23 18:10:55 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Order - My Store/input_2.00_cgv' is not visible after 2 second(s)
+
+2018-10-23 18:10:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Order - My Store/input_2.00_cgv' is clicked on
+
+2018-10-23 18:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/input_2.00_cgv' is clicked on
+
+2018-10-23 18:10:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Order - My Store/Proceed to checkout 4' is visible
+
+2018-10-23 18:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Order - My Store/Proceed to checkout 4' is visible
+
+2018-10-23 18:10:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Order - My Store/Proceed to checkout 4' is clicked on
+
+2018-10-23 18:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/Proceed to checkout 4' is clicked on
+
+2018-10-23 18:10:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Order - My Store/a_Pay by check (order processi' is visible
+
+2018-10-23 18:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Order - My Store/a_Pay by check (order processi' is visible
+
+2018-10-23 18:10:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Order - My Store/a_Pay by check (order processi' is clicked on
+
+2018-10-23 18:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order - My Store/a_Pay by check (order processi' is clicked on
+
+2018-10-23 18:10:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/span_I confirm my order' is clicked on
+
+2018-10-23 18:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/span_I confirm my order' is clicked on
+
+2018-10-23 18:11:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Order confirmation - My Store/a_Test User' is clicked on
+
+2018-10-23 18:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Order confirmation - My Store/a_Test User' is clicked on
+
+2018-10-23 18:11:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My account - My Store/span_Order history and details' is clicked on
+
+2018-10-23 18:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/span_Order history and details' is clicked on
+
+2018-10-23 18:11:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Order history - My Store/span_On backorder' is visible
+
+2018-10-23 18:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Order history - My Store/span_On backorder' is visible
+
+2018-10-23 18:11:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:11:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-8 Verify CA modification" classname="Test Cases/Automationpractice/E-8 Verify CA modification" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:11:03 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-8 Verify CA modification: Test Cases/Automationpractice/E-8 Verify CA modification
+
+2018-10-23 18:11:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 18:11:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 18:11:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-10-23 18:11:12 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-10-23 18:11:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Sign in (1)' is clicked on
+
+2018-10-23 18:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in (1)' is clicked on
+
+2018-10-23 18:11:12 - [TEST_STEP][PASSED] - setText: Text 'e-8test@testmail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2018-10-23 18:11:15 - [MESSAGE][PASSED] - Text 'e-8test@testmail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2018-10-23 18:11:15 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2018-10-23 18:11:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2018-10-23 18:11:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-10-23 18:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-10-23 18:11:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My account - My Store/span_My addresses' is clicked on
+
+2018-10-23 18:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/span_My addresses' is clicked on
+
+2018-10-23 18:11:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Addresses - My Store/span_Delete' is clicked on
+
+2018-10-23 18:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Addresses - My Store/span_Delete' is clicked on
+
+2018-10-23 18:11:17 - [TEST_STEP][NOT_RUN] - switchToWindowTitle: NOT_RUN: switchToWindowTitle
+
+2018-10-23 18:11:17 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToWindowTitle
+
+2018-10-23 18:11:17 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-23 18:11:17 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-23 18:11:17 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-10-23 18:11:20 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-10-23 18:11:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-23 18:11:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-23 18:11:20 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'No addresses are available. ' is present on page 
+
+2018-10-23 18:11:20 - [MESSAGE][PASSED] - Text 'No addresses are available. ' is present on page 
+
+2018-10-23 18:11:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Addresses - My Store/span_Add a new address' is clicked on
+
+2018-10-23 18:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Addresses - My Store/span_Add a new address' is clicked on
+
+2018-10-23 18:11:21 - [TEST_STEP][PASSED] - setText: Text '77411' is set on object 'Object Repository/Page_Address - My Store/input__postcode'
+
+2018-10-23 18:11:21 - [MESSAGE][PASSED] - Text '77411' is set on object 'Object Repository/Page_Address - My Store/input__postcode'
+
+2018-10-23 18:11:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '43' are selected in object 'Object Repository/Page_Address - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-23 18:11:22 - [MESSAGE][PASSED] - All options with value '43' are selected in object 'Object Repository/Page_Address - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2018-10-23 18:11:22 - [TEST_STEP][PASSED] - setText: Text 'Alief' is set on object 'Object Repository/Page_Address - My Store/input__city'
+
+2018-10-23 18:11:22 - [MESSAGE][PASSED] - Text 'Alief' is set on object 'Object Repository/Page_Address - My Store/input__city'
+
+2018-10-23 18:11:22 - [TEST_STEP][PASSED] - setText: Text '2078  Private Lane' is set on object 'Object Repository/Page_Address - My Store/input__address1'
+
+2018-10-23 18:11:22 - [MESSAGE][PASSED] - Text '2078  Private Lane' is set on object 'Object Repository/Page_Address - My Store/input__address1'
+
+2018-10-23 18:11:22 - [TEST_STEP][PASSED] - setText: Text '817-829-2937' is set on object 'Object Repository/Page_Address - My Store/input__phone_mobile'
+
+2018-10-23 18:11:22 - [MESSAGE][PASSED] - Text '817-829-2937' is set on object 'Object Repository/Page_Address - My Store/input__phone_mobile'
+
+2018-10-23 18:11:22 - [TEST_STEP][PASSED] - setText: Text '229-253-4172' is set on object 'Object Repository/Page_Address - My Store/input__phone'
+
+2018-10-23 18:11:22 - [MESSAGE][PASSED] - Text '229-253-4172' is set on object 'Object Repository/Page_Address - My Store/input__phone'
+
+2018-10-23 18:11:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Address - My Store/span_Save' is clicked on
+
+2018-10-23 18:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Address - My Store/span_Save' is clicked on
+
+2018-10-23 18:11:23 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'No addresses are available' is not present on page
+
+2018-10-23 18:11:24 - [MESSAGE][PASSED] - Text 'No addresses are available' is not present on page
+
+2018-10-23 18:11:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Addresses - My Store/a_Sign out' is clicked on
+
+2018-10-23 18:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Addresses - My Store/a_Sign out' is clicked on
+
+2018-10-23 18:11:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'AUTHENTICATION' is present on page 
+
+2018-10-23 18:11:26 - [MESSAGE][PASSED] - Text 'AUTHENTICATION' is present on page 
+
+2018-10-23 18:11:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:11:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-9 Wishlist test" classname="Test Cases/Automationpractice/E-9 Wishlist test" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:11:26 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-9 Wishlist test: Test Cases/Automationpractice/E-9 Wishlist test
+
+2018-10-23 18:11:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 18:11:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 18:11:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-10-23 18:11:35 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-10-23 18:11:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-23 18:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-23 18:11:35 - [TEST_STEP][PASSED] - setText: Text 'e-8test@testmail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2018-10-23 18:11:40 - [MESSAGE][PASSED] - Text 'e-8test@testmail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2018-10-23 18:11:40 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2018-10-23 18:11:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2018-10-23 18:11:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-10-23 18:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-10-23 18:11:42 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_My account - My Store/a_Dresses' is hovered
+
+2018-10-23 18:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_Dresses' is hovered
+
+2018-10-23 18:11:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_My account - My Store/a_Evening Dresses' is visible
+
+2018-10-23 18:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account - My Store/a_Evening Dresses' is visible
+
+2018-10-23 18:11:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My account - My Store/a_Evening Dresses' is clicked on
+
+2018-10-23 18:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_Evening Dresses' is clicked on
+
+2018-10-23 18:11:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Evening Dresses - My Store/img_Showing 1 - 1 of 1 item_re_2' is clicked on
+
+2018-10-23 18:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Evening Dresses - My Store/img_Showing 1 - 1 of 1 item_re_2' is clicked on
+
+2018-10-23 18:11:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Printed Dress - My Store/a_Add to wishlist' is clicked on
+
+2018-10-23 18:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Printed Dress - My Store/a_Add to wishlist' is clicked on
+
+2018-10-23 18:11:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Evening Dresses - My Store/span_Henry  Ralston' is clicked on
+
+2018-10-23 18:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Evening Dresses - My Store/span_Henry  Ralston' is clicked on
+
+2018-10-23 18:11:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My account - My Store/span_My wishlists' is clicked on
+
+2018-10-23 18:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/span_My wishlists' is clicked on
+
+2018-10-23 18:11:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_View' is clicked on
+
+2018-10-23 18:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_View' is clicked on
+
+2018-10-23 18:11:53 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'No products' is not present on page
+
+2018-10-23 18:11:53 - [MESSAGE][PASSED] - Text 'No products' is not present on page
+
+2018-10-23 18:11:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/i_View_icon-remove' is clicked on
+
+2018-10-23 18:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/i_View_icon-remove' is clicked on
+
+2018-10-23 18:11:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:11:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-11 Registration form validation" classname="Test Cases/Automationpractice/E-11 Registration form validation" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Login - My Store/input_Mr._id_gender' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSMBP.local', ip: 'fe80:0:0:0:864:7240:324:ff93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kk/57sv3q9s3s3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: bf6c0b5d25e0e09a7e11e880b594e621)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540280855115.run(Script1540280855115.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540303741068.run(TempTestSuite1540303741068.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-23 18:11:53 - [TEST_CASE][FAILED] - Test Cases/Automationpractice/E-11 Registration form validation: Test Cases/Automationpractice/E-11 Registration form validation FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Login - My Store/input_Mr._id_gender' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSMBP.local', ip: 'fe80:0:0:0:864:7240:324:ff93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kk/57sv3q9s3s3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: bf6c0b5d25e0e09a7e11e880b594e621)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540280855115.run(Script1540280855115.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540303741068.run(TempTestSuite1540303741068.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-23 18:11:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:12:00 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2018-10-23 18:12:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-23 18:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-23 18:12:02 - [TEST_STEP][PASSED] - Statement - RN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-10-23 18:12:02 - [TEST_STEP][PASSED] - Statement - RN = java.lang.Math.random() * 10000: null
+
+2018-10-23 18:12:02 - [TEST_STEP][PASSED] - setText: Text 'testreg6630@mail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_crea'
+
+2018-10-23 18:12:02 - [MESSAGE][PASSED] - Text 'testreg6630@mail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_crea'
+
+2018-10-23 18:12:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:12:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2018-10-23 18:12:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Login - My Store/input_Mr._id_gender' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSMBP.local', ip: 'fe80:0:0:0:864:7240:324:ff93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kk/57sv3q9s3s3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: bf6c0b5d25e0e09a7e11e880b594e621)
+
+2018-10-23 18:12:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Login - My Store/input_Mr._id_gender' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSMBP.local', ip: 'fe80:0:0:0:864:7240:324:ff93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kk/57sv3q9s3s3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: bf6c0b5d25e0e09a7e11e880b594e621)
+[[ATTACHMENT|/Users/StaBdv/Documents/QA/Automation/Final_task/Reports/Test Suite 1/20181023_180901/1540303924304.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-23 18:11:53 - [TEST_CASE][FAILED] - Test Cases/Automationpractice/E-11 Registration form validation: Test Cases/Automationpractice/E-11 Registration form validation FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Login - My Store/input_Mr._id_gender' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSMBP.local', ip: 'fe80:0:0:0:864:7240:324:ff93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kk/57sv3q9s3s3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: bf6c0b5d25e0e09a7e11e880b594e621)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540280855115.run(Script1540280855115.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540303741068.run(TempTestSuite1540303741068.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automationpractice/E-10 Write a review test" classname="Test Cases/Automationpractice/E-10 Write a review test" status="PASSED">
+         <system-out><![CDATA[2018-10-23 18:12:04 - [TEST_CASE][PASSED] - Test Cases/Automationpractice/E-10 Write a review test: Test Cases/Automationpractice/E-10 Write a review test
+
+2018-10-23 18:12:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 18:12:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-23 18:12:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 18:12:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-10-23 18:12:15 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2018-10-23 18:12:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-23 18:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2018-10-23 18:12:18 - [TEST_STEP][PASSED] - setText: Text 'e-8test@testmail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2018-10-23 18:12:18 - [MESSAGE][PASSED] - Text 'e-8test@testmail.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2018-10-23 18:12:18 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2018-10-23 18:12:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2018-10-23 18:12:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-10-23 18:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2018-10-23 18:12:19 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_My account - My Store/a_Dresses' is hovered
+
+2018-10-23 18:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_Dresses' is hovered
+
+2018-10-23 18:12:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_My account - My Store/a_Evening Dresses' is visible
+
+2018-10-23 18:12:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account - My Store/a_Evening Dresses' is visible
+
+2018-10-23 18:12:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My account - My Store/a_Evening Dresses' is clicked on
+
+2018-10-23 18:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account - My Store/a_Evening Dresses' is clicked on
+
+2018-10-23 18:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Evening Dresses - My Store/img_Showing 1 - 1 of 1 item_re_2' is clicked on
+
+2018-10-23 18:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Evening Dresses - My Store/img_Showing 1 - 1 of 1 item_re_2' is clicked on
+
+2018-10-23 18:12:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Printed Dress - My Store/a_Write a review' is clicked on
+
+2018-10-23 18:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Printed Dress - My Store/a_Write a review' is clicked on
+
+2018-10-23 18:12:28 - [TEST_STEP][PASSED] - setText: Text 'Test title' is set on object 'Object Repository/Page_Printed Dress - My Store/input__title'
+
+2018-10-23 18:12:29 - [MESSAGE][PASSED] - Text 'Test title' is set on object 'Object Repository/Page_Printed Dress - My Store/input__title'
+
+2018-10-23 18:12:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Printed Dress - My Store/span_Send' is clicked on
+
+2018-10-23 18:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Printed Dress - My Store/span_Send' is clicked on
+
+2018-10-23 18:12:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-23 18:12:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-23 18:12:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Comment is incorrect' is present on page 
+
+2018-10-23 18:12:31 - [MESSAGE][PASSED] - Text 'Comment is incorrect' is present on page 
+
+2018-10-23 18:12:31 - [TEST_STEP][PASSED] - setText: Text 'Test text' is set on object 'Object Repository/Page_Printed Dress - My Store/textarea__content'
+
+2018-10-23 18:12:31 - [MESSAGE][PASSED] - Text 'Test text' is set on object 'Object Repository/Page_Printed Dress - My Store/textarea__content'
+
+2018-10-23 18:12:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Printed Dress - My Store/span_Send' is clicked on
+
+2018-10-23 18:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Printed Dress - My Store/span_Send' is clicked on
+
+2018-10-23 18:12:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-23 18:12:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-23 18:12:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Your comment has been added and will be available once approved by a moderator' is present on page  using regular expression
+
+2018-10-23 18:12:33 - [MESSAGE][PASSED] - Text 'Your comment has been added and will be available once approved by a moderator' is present on page  using regular expression
+
+2018-10-23 18:12:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 18:12:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-23 18:09:02 - [TEST_SUITE][FAILED] - Test Suite 1: Test Cases/Automationpractice/E-11 Registration form validation FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Login - My Store/input_Mr._id_gender' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSMBP.local', ip: 'fe80:0:0:0:864:7240:324:ff93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kk/57sv3q9s3s3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: bf6c0b5d25e0e09a7e11e880b594e621)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540280855115.run(Script1540280855115.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540303741068.run(TempTestSuite1540303741068.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-23 18:09:02 - [TEST_SUITE][FAILED] - Test Suite 1: Test Cases/Automationpractice/E-11 Registration form validation FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Login - My Store/input_Mr._id_gender' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSMBP.local', ip: 'fe80:0:0:0:864:7240:324:ff93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kk/57sv3q9s3s3...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: bf6c0b5d25e0e09a7e11e880b594e621)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540280855115.run(Script1540280855115.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540303741068.run(TempTestSuite1540303741068.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
